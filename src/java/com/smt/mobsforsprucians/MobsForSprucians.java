@@ -1,6 +1,6 @@
 package com.smt.mobsforsprucians;
 
-import com.smt.mobsforsprucians.proxy.CommonProxy;
+import com.smt.mobsforsprucians.proxies.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;

@@ -1,10 +1,10 @@
-package com.smt.mobsforsprucians.proxy;
+package com.smt.mobsforsprucians.proxies;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-public class ClientProxy extends CommonProxy{
+public class ServerProxy extends CommonProxy{
 
 	public void preInit(FMLPreInitializationEvent e) {
 		super.preInit(e);

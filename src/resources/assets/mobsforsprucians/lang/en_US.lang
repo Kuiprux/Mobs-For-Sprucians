@@ -1,0 +1,24 @@
+//Tab
+tab.
+
+//Boss Item
+item.WorldItem1.name=WorldItem1
+item.WorldItem2.name=WorldItem2
+item.WorldItem3.name=WorldItem3
+item.WorldItem4.name=WorldItem4
+item.WorldItem5.name=WorldItem5
+item.WorldItem6.name=WorldItem6
+item.WorldItem7.name=WorldItem7
+item.WorldItem8.name=WorldItem8
+item.WorldItem9.name=WorldItem9
+
+//Setting World Item
+item.SettingWorldItem1.name=SettingWorldItem1
+item.SettingWorldItem2.name=SettingWorldItem2
+item.SettingWorldItem3.name=SettingWorldItem3
+item.SettingWorldItem4.name=SettingWorldItem4
+item.SettingWorldItem5.name=SettingWorldItem5
+item.SettingWorldItem6.name=SettingWorldItem6
+item.SettingWorldItem7.name=SettingWorldItem7
+item.SettingWorldItem8.name=SettingWorldItem8
+item.SettingWorldItem9.name=SettingWorldItem9
