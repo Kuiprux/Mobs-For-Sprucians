@@ -20,7 +20,7 @@ public class MobsForSprucians {
 	@Instance
 	public static MobsForSprucians instance = new MobsForSprucians();
 	
-	@SidedProxy(clientSide="com.bedrockminer.tutorial.ClientProxy", serverSide="com.bedrockminer.tutorial.ServerProxy")
+	@SidedProxy(clientSide="com.smt.mobsforsprucians.proxies.ClientProxy", serverSide="com.smt.mobsforsprucians.proxies.ServerProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler

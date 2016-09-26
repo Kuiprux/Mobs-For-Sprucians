@@ -1,0 +1,78 @@
+[21:45:47] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[21:45:53] [Server thread/INFO]: Loading properties
+[21:45:53] [Server thread/INFO]: Default game type: SURVIVAL
+[21:45:53] [Server thread/INFO]: Generating keypair
+[21:45:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:45:54] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(DedicatedPlayerList.java:124) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:31) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[21:45:54] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(DedicatedPlayerList.java:112) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:33) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[21:45:54] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadOpsList(DedicatedPlayerList.java:136) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:35) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[21:45:54] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.readWhiteList(DedicatedPlayerList.java:160) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:36) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[21:45:54] [Server thread/INFO]: Preparing level "world"
+[21:45:54] [Server thread/INFO]: Preparing start region for level 0
+[21:45:55] [Server thread/INFO]: Preparing spawn area: 9%
+[21:45:56] [Server thread/INFO]: Preparing spawn area: 25%
+[21:45:57] [Server thread/INFO]: Preparing spawn area: 40%
+[21:45:58] [Server thread/INFO]: Preparing spawn area: 56%
+[21:45:59] [Server thread/INFO]: Preparing spawn area: 74%
+[21:46:00] [Server thread/INFO]: Preparing spawn area: 88%
+[21:46:01] [Server thread/INFO]: Done (7.445s)! For help, type "help" or "?"
+[21:46:05] [Server thread/INFO]: Stopping the server
+[21:46:05] [Server thread/INFO]: Stopping server
+[21:46:05] [Server thread/INFO]: Saving players
+[21:46:05] [Server thread/INFO]: Saving worlds
+[21:46:05] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:46:08] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:46:08] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[21:46:08] [main/INFO]: Logging in with username & password
+[21:46:12] [main/INFO]: Setting user: Smt_Redstoner
+[21:46:13] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:46:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[21:46:23] [Sound Library Loader/INFO]: Sound engine started
+[21:46:25] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:46:25] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:46:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[21:46:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas

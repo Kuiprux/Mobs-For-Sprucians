@@ -1,12 +1,10 @@
-package com.smt.mobsforsprucians.items;
-
-import com.smt.mobsforsprucians.MobsForSprucians;
+package com.smt.mobsforsprucians;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class WorldItems {
+public class Registeration {
 
 	//Tab
 	public static CreativeTabs Tab = new com.smt.mobsforsprucians.tabs.TabMFS(CreativeTabs.getNextID(),"TabMFS");

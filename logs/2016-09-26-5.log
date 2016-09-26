@@ -20,17 +20,3 @@ oner lost connection: TextComponent{text='Disconnected', siblings=[], style=Styl
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[21:54:53] [main/INFO]: Logging in with username & password
-[21:55:00] [main/INFO]: Setting user: Smt_Redstoner
-[21:55:02] [Client thr[21:55:07] [Server thread/INFO]: [21:55:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
-[21:55:12] [Sound Library Loader/INFO]: Sound engine started
-[21:55:13] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[21:55:13] [Client thread/INFO]: Created: 16x16 textures/item[21:55:26] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
-[21:55:27] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:52540] logged in with entity id 422 at (232.69053297225938, 75.61436063546418, 249.1434685373587)
-[21:55:27] [Server thread/INFO]: Smt_Redstoner joined the game
-Created: 256x256 textures/items-atlas
-[21:55:14] [Sound Library Loader/INFO]: Sound engine started
-[21:55:25] [Client thread/INFO]: Connecting to localhost, 25565
-[21:55:36] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-09-26_21.55.35.png
-[21:55:40] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-09-26_21.55.40.png
-[21:55:42] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-09-26_21.55.42.png

@@ -1,6 +1,6 @@
 package com.smt.mobsforsprucians.tabs;
 
-import com.smt.mobsforsprucians.items.WorldItems;
+import com.smt.mobsforsprucians.Registeration;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -16,6 +16,6 @@ public class TabMFS extends CreativeTabs{
 	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem() {
-		return WorldItems.WorldItem1;
+		return Registeration.WorldItem1;
 	}
 }
