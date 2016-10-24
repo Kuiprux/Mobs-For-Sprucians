@@ -20,3 +20,4 @@ oner lost connection: TextComponent{text='Disconnected', siblings=[], style=Styl
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
 [21:54:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[21:54:53] [main/INFO]: Logging in with username & password

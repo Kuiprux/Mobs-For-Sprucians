@@ -8,7 +8,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class TabMFS extends CreativeTabs{
-
+	
 	public TabMFS(int p_i1853_1_, String p_i1853_2_) {
 		super(p_i1853_1_, p_i1853_2_);
 	}
@@ -16,6 +16,6 @@ public class TabMFS extends CreativeTabs{
 	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem() {
-		return Registeration.WorldItem1;
+		return Registeration.worldItem1;
 	}
 }

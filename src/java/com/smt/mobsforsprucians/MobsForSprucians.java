@@ -9,6 +9,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
 @Mod(modid = MobsForSprucians.MODID, name = MobsForSprucians.MODNAME, version = MobsForSprucians.VERSION)
 public class MobsForSprucians {
@@ -24,13 +25,18 @@ public class MobsForSprucians {
 	public static CommonProxy proxy;
 	
 	@EventHandler
+	public void serverStart(FMLServerStartingEvent e) {
+		proxy.serverStart(e);
+	}
+	
+	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		proxy.preInit(e);
 	}
 	
 	@EventHandler
-	public void Init(FMLInitializationEvent e) {
-		proxy.Init(e);
+	public void init(FMLInitializationEvent e) {
+		proxy.init(e);
 	}
 	
 	@EventHandler

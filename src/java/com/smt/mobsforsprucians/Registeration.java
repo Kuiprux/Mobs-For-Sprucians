@@ -1,111 +1,90 @@
 package com.smt.mobsforsprucians;
 
+import com.smt.mobsforsprucians.commands.SetWorldCommand;
+import com.smt.mobsforsprucians.config.ManagerConfig;
+import com.smt.mobsforsprucians.mobs.BossRegister;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.command.ICommandManager;
+import net.minecraft.command.ServerCommandManager;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.server.MinecraftServer;
 
 public class Registeration {
-
+	
 	//Tab
-	public static CreativeTabs Tab = new com.smt.mobsforsprucians.tabs.TabMFS(CreativeTabs.getNextID(),"TabMFS");
+	public static CreativeTabs tab = new com.smt.mobsforsprucians.tabs.TabMFS(CreativeTabs.getNextID(),"TabMFS");
+
 	//Boss Items
-	public static Item WorldItem1;
-	public static Item WorldItem2;
-	public static Item WorldItem3;
-	public static Item WorldItem4;
-	public static Item WorldItem5;
-	public static Item WorldItem6;
-	public static Item WorldItem7;
-	public static Item WorldItem8;
-	public static Item WorldItem9;
+	public static Item worldItem1;
+	public static Item worldItem2;
+	public static Item worldItem3;
+	public static Item worldItem4;
+	public static Item worldItem5;
+	public static Item worldItem6;
+	public static Item worldItem7;
+	public static Item worldItem8;
+	public static Item worldItem9;
 	
-	//World Setting Items
-	public static Item SettingWorldItem1;
-	public static Item SettingWorldItem2;
-	public static Item SettingWorldItem3;
-	public static Item SettingWorldItem4;
-	public static Item SettingWorldItem5;
-	public static Item SettingWorldItem6;
-	public static Item SettingWorldItem7;
-	public static Item SettingWorldItem8;
-	public static Item SettingWorldItem9;
+	@Instance(MobsForSprucians.MODID)
+	public Registeration modInstance;
 	
+	public static void serverStart(FMLServerStartingEvent e) {
+		MinecraftServer server = MinecraftServer.getServer();
+		ICommandManager command = server.getCommandManager();
+		ServerCommandManager manager = (ServerCommandManager) command;
+		manager.registerCommand(new SetWorldCommand());
+	}
+
 	//Registering
-	public static final void preInit() {
+	public final void preInit(FMLPreInitializationEvent e) {
+
+		//Configs
+		ManagerConfig.init(e.getSuggestedConfigurationFile());
+		
+		//Bosses
+//		BossRegister.mainRegistry();
 		
 		//Registering Boss Items
-        WorldItem1 = new Item().setUnlocalizedName("WorldItem1").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem1");
-        GameRegistry.registerItem(WorldItem1, "WorldItem1");
+        worldItem1 = new Item().setUnlocalizedName("worldItem1").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem1");
+        GameRegistry.registerItem(worldItem1, "worldItem1");
         
-        WorldItem2 = new Item().setUnlocalizedName("WorldItem2").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem2");
-        GameRegistry.registerItem(WorldItem2, "WorldItem2");
+        worldItem2 = new Item().setUnlocalizedName("worldItem2").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem2");
+        GameRegistry.registerItem(worldItem2, "worldItem2");
         
-        WorldItem3 = new Item().setUnlocalizedName("WorldItem3").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem3");
-        GameRegistry.registerItem(WorldItem3, "WorldItem3");
+        worldItem3 = new Item().setUnlocalizedName("worldItem3").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem3");
+        GameRegistry.registerItem(worldItem3, "worldItem3");
         
-        WorldItem4 = new Item().setUnlocalizedName("WorldItem4").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem4");
-        GameRegistry.registerItem(WorldItem4, "WorldItem4");
+        worldItem4 = new Item().setUnlocalizedName("worldItem4").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem4");
+        GameRegistry.registerItem(worldItem4, "worldItem4");
         
-        WorldItem5 = new Item().setUnlocalizedName("WorldItem5").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem5");
-        GameRegistry.registerItem(WorldItem5, "WorldItem5");
+        worldItem5 = new Item().setUnlocalizedName("worldItem5").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem5");
+        GameRegistry.registerItem(worldItem5, "worldItem5");
         
-        WorldItem6 = new Item().setUnlocalizedName("WorldItem6").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem6");
-        GameRegistry.registerItem(WorldItem6, "WorldItem6");
+        worldItem6 = new Item().setUnlocalizedName("worldItem6").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem6");
+        GameRegistry.registerItem(worldItem6, "worldItem6");
         
-        WorldItem7 = new Item().setUnlocalizedName("WorldItem7").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem7");
-        GameRegistry.registerItem(WorldItem7, "WorldItem7");
+        worldItem7 = new Item().setUnlocalizedName("worldItem7").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem7");
+        GameRegistry.registerItem(worldItem7, "worldItem7");
         
-        WorldItem8 = new Item().setUnlocalizedName("WorldItem8").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem8");
-        GameRegistry.registerItem(WorldItem8, "WorldItem8");
+        worldItem8 = new Item().setUnlocalizedName("worldItem8").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem8");
+        GameRegistry.registerItem(worldItem8, "worldItem8");
         
-        WorldItem9 = new Item().setUnlocalizedName("WorldItem9").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":WorldItem9");
-        GameRegistry.registerItem(WorldItem9, "WorldItem9");
+        worldItem9 = new Item().setUnlocalizedName("worldItem9").setCreativeTab(tab)
+        		.setTextureName(MobsForSprucians.MODID + ":worldItem9");
+        GameRegistry.registerItem(worldItem9, "worldItem9");
         
-        //registering World Items
-        SettingWorldItem1 = new Item().setUnlocalizedName("SettingWorldItem1").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem1");
-        GameRegistry.registerItem(SettingWorldItem1, "SettingWorldItem1");
-
-        SettingWorldItem2 = new Item().setUnlocalizedName("SettingWorldItem2").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem2");
-        GameRegistry.registerItem(SettingWorldItem2, "SettingWorldItem2");
-
-        SettingWorldItem3 = new Item().setUnlocalizedName("SettingWorldItem3").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem3");
-        GameRegistry.registerItem(SettingWorldItem3, "SettingWorldItem3");
-
-        SettingWorldItem4 = new Item().setUnlocalizedName("SettingWorldItem4").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem4");
-        GameRegistry.registerItem(SettingWorldItem4, "SettingWorldItem4");
-
-        SettingWorldItem5 = new Item().setUnlocalizedName("SettingWorldItem5").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem5");
-        GameRegistry.registerItem(SettingWorldItem5, "SettingWorldItem5");
-
-        SettingWorldItem6 = new Item().setUnlocalizedName("SettingWorldItem6").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem6");
-        GameRegistry.registerItem(SettingWorldItem6, "SettingWorldItem6");
-
-        SettingWorldItem7 = new Item().setUnlocalizedName("SettingWorldItem7").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem7");
-        GameRegistry.registerItem(SettingWorldItem7, "SettingWorldItem7");
-
-        SettingWorldItem8 = new Item().setUnlocalizedName("SettingWorldItem8").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem8");
-        GameRegistry.registerItem(SettingWorldItem8, "SettingWorldItem8");
-
-        SettingWorldItem9 = new Item().setUnlocalizedName("SettingWorldItem9").setCreativeTab(Tab)
-        		.setTextureName(MobsForSprucians.MODID + ":SettingWorldItem9");
-        GameRegistry.registerItem(SettingWorldItem9, "SettingWorldItem9");
-
+        System.out.println("test");
 	}
 }
