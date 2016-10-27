@@ -45,14 +45,11 @@ public class ManagerConfig {
 			}
 			out.write("}");
 			out.close();
-		} catch (IOException e) {
-			System.out.println(e);
-		}
+		} catch (IOException e) {}
 	}
 	
 	public static int getWorldNum(int id) {
 		for(int x=1; x<=9; x++) {
-			System.out.println(worldIds[x-1]);
 			if(worldIds[x-1]==id) {
 				return x;
 			}

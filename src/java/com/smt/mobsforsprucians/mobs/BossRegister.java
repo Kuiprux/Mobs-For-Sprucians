@@ -1,9 +1,9 @@
 package com.smt.mobsforsprucians.mobs;
 
-import com.smt.mobsforsprucians.Registeration;
+//import com.smt.mobsforsprucians.Registeration;
 
-import cpw.mods.fml.common.registry.EntityRegistry;
-import net.minecraft.entity.EntityList;
+//import cpw.mods.fml.common.registry.EntityRegistry;
+//import net.minecraft.entity.EntityList;
 
 public class BossRegister {
 /*	

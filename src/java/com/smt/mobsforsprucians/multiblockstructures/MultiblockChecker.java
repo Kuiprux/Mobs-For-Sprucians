@@ -234,7 +234,7 @@ public class MultiblockChecker {
 						world.getBlock(x-3, y-2, z+0) == blocks[2][5] &&
 						world.getBlock(x-2, y-2, z+0) == blocks[2][6] &&
 						world.getBlock(x-1, y-2, z+0) == blocks[2][7] &&
-						world.getBlock(x+0, y-2, z+0) == blocks[2][8] &&
+//						world.getBlock(x+0, y-2, z+0) == blocks[2][8] &&	This code is useless
 						world.getBlock(x+1, y-2, z+0) == blocks[2][7] &&
 						world.getBlock(x+2, y-2, z+0) == blocks[2][6] &&
 						world.getBlock(x+3, y-2, z+0) == blocks[2][5] &&
