@@ -1,0 +1,21 @@
+[22:09:32] [main/INFO]: Logging in with username & password
+[22:09:39] [main/INFO]: Setting user: Smt_Redstoner
+[22:09:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:09:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[22:09:56] [Sound Library Loader/INFO]: Sound engine started
+[22:09:57] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[22:09:57] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[22:09:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod [22:10:22] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[22:10:22] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:53715] logged in with entity id 283 at (114.12527552331292, 44.0, -48.15032092075521)
+[22:10:22] [Server thread/INFO]: Smt_Redstoner joined the game
+[22:10:33] [Server thread/WARN]: Skipping Entity with id Notch
+[22:10[22:10:33] [Client thread/INFO]: [CHAT] Unable to summon object
+[22:10:44] [Client thread/INFO]: [CHAT] [Server: Stopping [22:10:44] [S[22:10:47] [Client thread/INFO]: Stopping!
+44] [Server thread/INFO]: Saving players
+[22:10:44] [Server thread/INFO]: Saving worlds
+[22:10:44] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:10:44] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:10:44] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[07:49:52] [main/INFO]: Logging in with username & password
+[07:50:00] [main/INFO]: Setting user: Smt_Redstoner
+[07:50:01] [Client thread/INFO]: LWJGL Version: 2.9.1

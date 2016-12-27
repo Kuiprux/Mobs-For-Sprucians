@@ -1,9 +1,12 @@
 package com.smt.mobsforsprucians.blocks;
 
 import com.smt.mobsforsprucians.Registeration;
+import com.smt.mobsforsprucians.mobs.SpawnMobs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
 
 public class Core5 extends Block {
 
@@ -18,4 +21,11 @@ public class Core5 extends Block {
 		setHardness(2.0F);
 		setResistance(10.0F);
 	}
+	
+	@Override
+    public boolean onBlockActivated(World world, int xPos, int yPos, int zPos, EntityPlayer player, int n1, float n2, float n3, float n4)
+    {
+		SpawnMobs.spawnMob(world, xPos, yPos, zPos, player, name);
+        return true;
+    }
 }

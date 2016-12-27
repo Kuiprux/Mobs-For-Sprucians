@@ -4,6 +4,8 @@ import net.minecraft.command.CommandBase;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ChatComponentText;
+
+import com.smt.mobsforsprucians.Registeration;
 import com.smt.mobsforsprucians.config.ManagerConfig;
 
 public class SetWorldCommand extends CommandBase{
@@ -33,6 +35,7 @@ public class SetWorldCommand extends CommandBase{
 					player.addChatMessage(new ChatComponentText("Usage: '/setworld <worldnumber>'"));
 				}
 				ManagerConfig.setId(worldNum, player.dimension);
+				ManagerConfig.readFile(Registeration.configFile);
 				player.addChatMessage(new ChatComponentText("[MFS] Successfully Saved."));
 			}
 		}	

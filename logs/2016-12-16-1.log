@@ -1,0 +1,152 @@
+[19:43:14] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[19:43:21] [Server thread/ERROR]: Encountered an unexpected exception
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/Render
+
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:544) ~[Loader.class:?]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) ~[FMLServerHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:120) ~[DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/Render
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_102]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_102]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[ProxyInjector.class:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.Render
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_102]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_102]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_102]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_102]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[ProxyInjector.class:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/Render for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50) ~[forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_102]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_102]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_102]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_102]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[ProxyInjector.class:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+[19:43:21] [Server thread/ERROR]: This crash report has been saved to: D:\JJH\Game\JAVA\1.7.10 forge Workspace\Mobs For Sprucians\.\crash-reports\crash-2016-12-16_19.43.21-server.txt
+[20:50:26] [main/INFO]: Logging in with username & password
+[20:50:33] [main/INFO]: Setting user: Smt_Redstoner
+[20:50:35] [Client thr[20:50:41] [Server thread/INFO]: [20:50:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[20:50:45] [Sound Library Loader/INFO]: Sound engine started
+[20:50:47] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:50:47] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:50:47] [Client thread/INFO]: Reloading Resource[20:52:38] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[20:52:39] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:64356] logged in with entity id 286 at (806.6909215933906, 74.49064318920136, -306.17344668938335)
+[20:52:39] [Server thread/INFO]: Smt_Redstoner joined the game
+[20:52:47] [Server thread/WARN]: Skipping Entity with id Notch
+[20:52:47] [Server thread/INFO]: [Smt_Red[20:52:47] [Client thread/INFO]: [[20:52:55] [Server thread/INFO][20:52:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:52:57] [Server thread/INFO]: Generating keypair
+[20:52:57] [Server thread/INFO]: Preparing start region for level 0
+[20:52:58] [Server thread/INFO]: Changing view distance to 12, from 10[20:55:38] [Server thread/INFO]: Stopping the server
+[20:55:39] [Server thread/INFO]: Stopping server
+[20:55:39] [Server thread/INFO]: Saving players
+[20:55:39] [Server thread/INFO]: Saving worlds
+[20:55:39] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:55:39] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[20:55:39] [Server thread/INFO]: Saving chunks for level 'world'/The End
+ [Server thread/INFO]: Saving and pausing game...
+[20:53:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:53:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:55:41] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[20:55:43] [Server thread/INFO]: Saving and pausing game...
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:55:43] [Server thread/INFO]: Stopping server
+[20:55:43] [Server thread/INFO]: Saving players
+[20:55:43] [Server thread/INFO]: Saving worlds
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:55:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:55:46] [Client thread/INFO]: Connecting to localhost, 25565
+[20:55:47] [Server Connector #2/ERROR]: Couldn't connect to server
+java.net.ConnectException: Connection refused: no further information: localhost/127.0.0.1:25565
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_102]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_102]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:228) ~[AbstractNioChannel$AbstractNioUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:497) ~[NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) ~[NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) ~[NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) ~[SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_102]
+[20:55:49] [Client thread/INFO]: Stopping!

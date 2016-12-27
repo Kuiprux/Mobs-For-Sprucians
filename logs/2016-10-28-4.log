@@ -1,0 +1,21 @@
+[22:04:45] [main/INFO]: Logging in with username & password
+[22:04:50] [main/INFO]: Setting user: Smt_Redstoner
+[22:04:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:05:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFil[22:05:04] [Server thread/INFO]: Loading properties
+[22:05:04] [Server thread/INFO]: Default game type: SURVIVAL
+[22:05:04] [Server thread/INFO]: Generating keypair
+[22:05:05] [Server thread/INFO]: Sta[22:05:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[22:05:06] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[22:05:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResource[22:05:29] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[22:05:30] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:58072] logged in with entity id 283 at (102.00224134342774, 37.16860087416833, -37.775451209146425)
+[22:05:30] [Server thread/INFO]: Smt_Redstoner joined the ga[22:[22:10:04] [Server thread/INFO]: Smt_Redstoner lost connection:[22:10:04] [Client thread/INFO]: Stopping!
+=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[22:10:04] [Server thread/INFO]: Smt_Redstoner left the game
+[22:10:08] [Server thread/INFO]: Stopping the server
+[22:10:08] [Server thread/INFO]: Stopping server
+[22:10:08] [Server thread/INFO]: Saving players
+[22:10:08] [Server thread/INFO]: Saving worlds
+[22:10:08] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:10:08] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:10:08] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[22:11:28] [main/INFO]: Logging in with username & password

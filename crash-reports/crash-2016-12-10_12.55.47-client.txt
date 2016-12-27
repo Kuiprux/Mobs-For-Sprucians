@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 16. 12. 10 ¿ÀÈÄ 12:55
+Description: Unexpected error
+
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.smt.mobsforsprucians.mobs.SpawnMobs.spawnMob(SpawnMobs.java:90)
+	at com.smt.mobsforsprucians.blocks.Core1.onBlockActivated(Core1.java:28)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:376)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1529)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2044)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.smt.mobsforsprucians.mobs.SpawnMobs.spawnMob(SpawnMobs.java:90)
+	at com.smt.mobsforsprucians.blocks.Core1.onBlockActivated(Core1.java:28)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:376)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1529)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Smt_Redstoner'/385, l='MpServer', x=110.60, y=44.37, z=-45.99]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (232,64,256), Chunk: (at 8,4,0 in 14,16; contains blocks 224,0,256 to 239,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 414653 game time, 70948 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 52 total; [EntityClientPlayerMP['Smt_Redstoner'/385, l='MpServer', x=110.60, y=44.37, z=-45.99], EntityPigZombie['Zombie Pigman'/386, l='MpServer', x=118.63, y=77.00, z=-40.72], EntityPigZombie['Zombie Pigman'/387, l='MpServer', x=110.03, y=75.00, z=-52.75], EntityPigZombie['Zombie Pigman'/388, l='MpServer', x=120.28, y=77.00, z=-42.97], EntityMagmaCube['Magma Cube'/389, l='MpServer', x=105.69, y=74.00, z=-25.31], EntityPigZombie['Zombie Pigman'/390, l='MpServer', x=118.84, y=75.00, z=-57.84], EntityPigZombie['Zombie Pigman'/391, l='MpServer', x=121.84, y=75.00, z=-58.91], EntityMagmaCube['Magma Cube'/392, l='MpServer', x=90.41, y=80.00, z=-73.69], EntityMagmaCube['Magma Cube'/393, l='MpServer', x=125.52, y=70.00, z=-66.31], EntityPigZombie['Zombie Pigman'/394, l='MpServer', x=136.59, y=31.38, z=-48.31], EntityBlaze['Blaze'/395, l='MpServer', x=128.50, y=69.00, z=-62.50], EntityPigZombie['Zombie Pigman'/396, l='MpServer', x=129.47, y=79.00, z=-33.34], EntityPigZombie['Zombie Pigman'/397, l='MpServer', x=131.00, y=78.00, z=-25.69], EntityPigZombie['Zombie Pigman'/398, l='MpServer', x=130.28, y=40.00, z=-1.31], EntityGhast['Ghast'/399, l='MpServer', x=135.33, y=79.86, z=-41.92], EntityMagmaCube['Magma Cube'/400, l='MpServer', x=61.69, y=30.00, z=-33.31], EntityMagmaCube['Magma Cube'/401, l='MpServer', x=80.38, y=74.00, z=-85.22], EntityMagmaCube['Magma Cube'/402, l='MpServer', x=89.63, y=80.00, z=-91.63], EntitySkeleton['Skeleton'/403, l='MpServer', x=119.28, y=74.00, z=-103.25], EntityMagmaCube['Magma Cube'/404, l='MpServer', x=155.78, y=23.00, z=-33.84], EntityPigZombie['Zombie Pigman'/405, l='MpServer', x=73.50, y=73.00, z=15.69], EntityMagmaCube['Magma Cube'/406, l='MpServer', x=148.75, y=75.81, z=-71.38], EntityPigZombie['Zombie Pigman'/407, l='MpServer', x=154.58, y=66.22, z=-66.56], EntityChicken['Chicken'/408, l='MpServer', x=154.50, y=65.88, z=-66.50], EntityMagmaCube['Magma Cube'/409, l='MpServer', x=131.31, y=24.00, z=0.69], EntityPigZombie['Zombie Pigman'/410, l='MpServer', x=34.75, y=76.00, z=-42.78], EntityPigZombie['Zombie Pigman'/411, l='MpServer', x=80.00, y=38.00, z=20.28], EntityPigZombie['Zombie Pigman'/412, l='MpServer', x=83.66, y=38.00, z=24.03], EntityPigZombie['Zombie Pigman'/413, l='MpServer', x=34.13, y=76.00, z=-52.06], EntityPigZombie['Zombie Pigman'/414, l='MpServer', x=90.13, y=79.00, z=-99.13], EntityMagmaCube['Magma Cube'/415, l='MpServer', x=89.31, y=80.00, z=-101.69], EntityMagmaCube['Magma Cube'/416, l='MpServer', x=95.44, y=80.00, z=-108.69], EntityMagmaCube['Magma Cube'/417, l='MpServer', x=88.31, y=80.00, z=-98.31], EntityMagmaCube['Magma Cube'/418, l='MpServer', x=116.31, y=74.00, z=-104.69], EntityMagmaCube['Magma Cube'/419, l='MpServer', x=127.63, y=78.08, z=-106.38], EntityMagmaCube['Magma Cube'/420, l='MpServer', x=122.06, y=75.00, z=-110.69], EntityPigZombie['Zombie Pigman'/421, l='MpServer', x=118.13, y=77.00, z=25.16], EntityPigZombie['Zombie Pigman'/422, l='MpServer', x=120.78, y=76.00, z=16.69], EntityMagmaCube['Magma Cube'/423, l='MpServer', x=148.78, y=34.08, z=12.78], EntityPigZombie['Zombie Pigman'/424, l='MpServer', x=67.09, y=78.00, z=31.50], EntityMagmaCube['Magma Cube'/425, l='MpServer', x=128.28, y=76.00, z=-104.25], EntityMagmaCube['Magma Cube'/429, l='MpServer', x=99.63, y=86.00, z=-112.63], EntityPigZombie['Zombie Pigman'/430, l='MpServer', x=172.34, y=100.00, z=9.41], EntityPigZombie['Zombie Pigman'/431, l='MpServer', x=178.38, y=96.00, z=2.94], EntityMagmaCube['Magma Cube'/441, l='MpServer', x=115.72, y=76.00, z=-121.69], EntityMagmaCube['Magma Cube'/443, l='MpServer', x=31.38, y=103.00, z=-9.63], EntityMagmaCube['Magma Cube'/445, l='MpServer', x=168.31, y=32.00, z=20.69], EntityMagmaCube['Magma Cube'/446, l='MpServer', x=178.78, y=32.00, z=14.78], EntityPigZombie['Zombie Pigman'/447, l='MpServer', x=181.38, y=99.00, z=14.28], EntityMagmaCube['Magma Cube'/455, l='MpServer', x=177.28, y=71.00, z=-104.31], EntityPigZombie['Zombie Pigman'/456, l='MpServer', x=178.31, y=102.00, z=20.34], EntityMagmaCube['Magma Cube'/459, l='MpServer', x=176.31, y=68.00, z=-115.31]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:991)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_102, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 327635056 bytes (312 MB) / 607649792 bytes (579 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJA	Forge{10.13.4.1558} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJA	mobsforsprucians{1.0.0} [Mobs For Sprucians] (bin) 
+	UCHIJA	examplemod{1.0} [Example Mod] (bin) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 355.82' Renderer: 'GeForce GTX 750 Ti/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 750 Ti/PCIe/SSE2 GL version 4.5.0 NVIDIA 355.82, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

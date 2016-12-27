@@ -1,7 +1,6 @@
 package com.smt.mobsforsprucians.proxies;
 
 import org.apache.logging.log4j.Logger;
-
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -22,6 +21,7 @@ public class ClientProxy extends CommonProxy{
 	public void postInit(FMLPostInitializationEvent e) {
 		super.postInit(e);	
 	}
+	
 	public void print(String s)
 	{
 		LOGGER.info(s);

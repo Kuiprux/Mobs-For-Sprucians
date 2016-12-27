@@ -1,51 +1,27 @@
-[20:55:04] [main/INFO]: Logging in with username & password
-[20:55:12] [main/INFO]: Setting user: Smt_Redstoner
-[20:55:14] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:55:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
-[20:55:26] [Sound Library Loader/INFO]: Sound engine started
-[20:55:28] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[20:55:28] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[20:55:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod [20:55:45] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
-[20:55:45] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:58387] logged in with entity id 283 at (786.5806862607269, 82.0, -322.60767220388)
-[20:55:45] [Server thread/INFO]: Smt_Redstoner joined the game
-[20:56:25] [Server thread/INFO]: [Smt_Redstoner: Set own game mode to Survival Mode]
-[20:56:37] [Server thread/INFO]: [Smt_Redstoner: Set own game mode to Creative Mode]
-[20:57:09] [Server thread/INFO]: Stopping the server
-[20:57:09] [Server thread/INFO]: Stopping server
-[20:57:09] [Server thread/INFO]: Saving players
-[20:57:09] [Server thread/INFO]: S[20:59:07] [Client thread/INFO]: Stopping!
-]: Saving chunks for level 'world'/Overworld
-[20:57:09] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[20:57:09] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[20:57:19] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:57:25] [Server thread/INFO]: Loading properties
-[20:57:25] [Server thread/INFO]: Default game type: SURVIVAL
-[20:57:25] [Server thread/INFO]: Generating keypair
-[20:57:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:57:26] [Server thread/INFO]: Preparing level "world"
-[20:57:26] [Server thread/INFO]: Preparing start region for level 0
-[20:57:27] [Server thread/INFO]: Done (1.263s)! For help, type "help" or "?"
-[20:57:59] [Server thread/INFO]: Stopping the server
-[20:57:59] [Server thread/INFO]: Stopping server
-[20:57:59] [Server thread/INFO]: Saving players
-[20:57:59] [Server thread/INFO]: Saving worlds
-[20:57:59] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:57:59] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[20:57:59] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[20:59:03] [main/INFO]: Logging in with username & password
-[20:59:08] [main/INFO]: Setting user: Smt_Redstoner
-[20:59:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:59:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
-[20:59:17] [Sound Library Loader/INFO]: Sound engine started
-[20:59:19] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[20:59:19] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[20:59:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
-[20:59:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:59:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:59:20] [Sound Library Loader/INFO]: Sound engine started
-[20:59:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:59:26] [Server thread/INFO]: Generating keypair
-[20:59:41] [Server thread/INFO]: Preparing start region for level 0
-[20:59:42] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:59:43] [Server thread/INFO]: Smt_Redstoner[local:E:3a6e24cd] logged in with entity id 390 at (-139.38464498281394, 84.2278007495881, 394.05024899645315)
-[20:59:43] [Server thread/INFO]: Smt_Redstoner joined the game
+[22:10:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[22:10:57] [Server thread/INFO]: Loading properties
+[22:10:57] [Server thread/INFO]: Default game type: SURVIVAL
+[22:10:57] [Server thread/INFO]: Generating keypair
+[22:10:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:10:58] [Server thread/INFO]: Preparing level "world"
+[22:10:58] [Server thread/INFO]: Preparing start region for level 0
+[22:10:59] [Server thread/INFO]: Done (0.988s)! For help, type "help" or "?"
+[22:12:00] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[22:12:00] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:50247] logged in with entity id 289 at (802.7838038376825, 73.0, -335.1950237059052)
+[22:12:00] [Server thread/INFO]: Smt_Redstoner joined the game
+[22:12:03] [Server thread/WARN]: Skipping Entity with id 3
+[22:12:41] [Server thread/WARN]: Skipping Entity with id 3
+[22:13:04] [Server thread/WARN]: Skipping Entity with id 289
+[22:13:04] [Server thread/INFO]: [Smt_Redstoner: Unable to summon object]
+[22:13:12] [Server thread/WARN]: Skipping Entity with id 3
+[22:14:56] [Server thread/INFO]: [Smt_Redstoner: Stopping the server]
+[22:14:56] [Server thread/INFO]: Stopping server
+[22:14:56] [Server thread/INFO]: Saving players
+[22:14:56] [Server thread/INFO]: Saving worlds
+[22:14:56] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:14:57] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:14:57] [Server thread/INFO]: Saving chunks for level 'world'/The End
+
+[22:13:05] [Client thread/INFO]: [CHAT] Unable to summon object
+[22:14:56] [Client thread/INFO]: [CHAT] Stopping the server
+[22:15:00] [Client thread/INFO]: Stopping!

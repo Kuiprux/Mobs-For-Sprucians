@@ -1,11 +1,15 @@
 package com.smt.mobsforsprucians;
 
+import java.io.File;
+
 import com.smt.mobsforsprucians.blocks.MFSBlocks;
 import com.smt.mobsforsprucians.commands.SetWorldCommand;
 import com.smt.mobsforsprucians.config.ManagerConfig;
 import com.smt.mobsforsprucians.items.Items;
+import com.smt.mobsforsprucians.mobs.EntityMain;
+
 //import com.smt.mobsforsprucians.mobs.BossRegister;
-import cpw.mods.fml.common.Mod.Instance;
+//import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import net.minecraft.command.ICommandManager;
@@ -15,11 +19,10 @@ import net.minecraft.server.MinecraftServer;
 
 public class Registeration {
 	
+	public static File configFile;
+	
 	//Tab
 	public static CreativeTabs tab = new com.smt.mobsforsprucians.tabs.TabMFS(CreativeTabs.getNextID(),"TabMFS");
-
-	@Instance(MobsForSprucians.MODID)
-	public Registeration modInstance;
 	
 	public static void serverStart(FMLServerStartingEvent e) {
 		MinecraftServer server = MinecraftServer.getServer();
@@ -31,8 +34,10 @@ public class Registeration {
 	//Registering
 	public final void preInit(FMLPreInitializationEvent e) {
 
+		configFile = e.getSuggestedConfigurationFile();
+		
 		//Configs
-		ManagerConfig.init(e.getSuggestedConfigurationFile());
+		ManagerConfig.init(configFile);
 		
 		//Bosses
 //		BossRegister.mainRegistry();
@@ -42,5 +47,7 @@ public class Registeration {
 		
 		//Registering Items
 		Items.registerItems();
+		
+		EntityMain.mainRegistry();
 	}
 }

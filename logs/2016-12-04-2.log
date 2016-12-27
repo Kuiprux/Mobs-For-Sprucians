@@ -1,0 +1,30 @@
+[12:19:45] [main/INFO]: Logging in with username & password
+[12:19:49] [main/INFO]: Setting user: Smt_Redstoner
+[12:19:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:19:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[12:19:58] [Sound Library Loader/INFO]: Sound engine started
+[12:20:01] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:20:01] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:20:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[12:20:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:20:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:20:02] [Sound Library Loader/INFO]: Sound engine started
+[12:20:51] [Client thread/INFO]: Stopping!
+necraft server version 1.7.10
+[12:20:19] [Server thread/INFO]: Loading properties
+[12:20:19] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:19] [Server thread/INFO]: Generating keypair
+[12:20:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:20:19] [Server thread/INFO]: Preparing level "world"
+[12:20:20] [Server thread/INFO]: Preparing start region for level 0
+[12:20:21] [Server thread/INFO]: Preparing spawn area: 87%
+[12:20:21] [Server thread/INFO]: Done (1.472s)! For help, type "help" or "?"
+[12:20:49] [Server thread/INFO]: Stopping the server
+[12:20:49] [Server thread/INFO]: Stopping server
+[12:20:49] [Server thread/INFO]: Saving players
+[12:20:49] [Server thread/INFO]: Saving worlds
+[12:20:49] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:20:49] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[12:20:49] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[12:25:15] [main/INFO]: Logging in with username & password
+[12:25:21] [main/INFO]: Setting user: Smt_Redstoner

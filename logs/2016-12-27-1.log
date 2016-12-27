@@ -1,0 +1,20 @@
+[21:11:05] [main/INFO]: Logging in with username & password
+[21:11:11] [main/INFO]: Setting user: Smt_Redstoner
+[21:11:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:11:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[21:11:28] [Sound Library Loader/INFO]: Sound engine started
+[21:11:31] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:11:31] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:11:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResource[21:11:44] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[21:11:45] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:64269] logged in with entity id 284 at (804.0003059185684, 76.49064318920136, -340.188490962498)
+[21:11:45] [Server thread/INFO]: Smt_Redstoner joined the game[[21:14:00] [Server thread/INFO]: Stopping the server
+[21:14:00] [Server thread/INFO]: Stopping server
+[21:14:00] [Server thread/INFO]: Saving players
+[21:14:00] [Server thread/INFO]: Saving worlds
+[21:14:00] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:14:00] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:14:00] [Server thread/INFO]: Saving chunks for level 'world'/The End
+Creeper, ThrownEnderpearl, Silverfish, Squid, Monster, Skeleton, SmallFireball, MinecartRideable, Wolf, Witch, Mob, Ozelot, Cow, Slime, Painting, Pig, MinecartFurnace, Bat, Blaze, WitherBoss, PigZombie, Spider, Ghast, Sheep, WitherSkull, Boat
+[21:14:04] [Client thread/INFO]: Stopping!
+[21:14:08] [main/INFO]: Logging in with username & password
+[21:14:16] [main/INFO]: Setting user: Smt_Redstoner

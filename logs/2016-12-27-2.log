@@ -1,0 +1,20 @@
+[21:30:53] [main/INFO]: Logging in with username & password
+[21:31:06] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[21:31:13] [Server thread/INFO]: [21:31:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[21:31:17] [Sound Library Loader/INFO]: Sound engine started
+[21:31:19] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:31:19] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:31:19] [Client thread/INFO]: Reloading Resource[21:31:31] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[21:31:31] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:65077] logged in with entity id 283 at (804.0003059185684, 76.49064318920136, -340.188490962498)
+[21:31:31] [Server thread/INFO]: Smt_Redstoner joined the game
+[21:47:15] [Server thread/INFO]: [Smt_Redstoner: Stopping the server]
+[21:47:15] [Server thread/INFO]: Stopping server
+[21:47:15] [Server thread/INFO]: Saving players
+[21:47:15] [Server thread/INFO]: Saving worlds
+[21:47:15] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:47:15] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:47:15] [Server thread/INFO]: Saving chunks for level 'world'/The End
+wnExpBottle, FireworksRocketEntity, Chicken, FallingSand, Giant, VillagerGolem, PrimedTnt, Creeper, ThrownEnderpearl, Silverfish, Squid, Monster, Skeleton, SmallFireball, MinecartRideable, Wolf, Witch, Mob, Ozelot, Cow, Slime, Painting, Pig, MinecartFurnace, Bat, Blaze, WitherBoss, PigZombie, Spider, Ghast, Sheep, WitherSkull, Boat
+[21:47:15] [Client thread/INFO]: [CHAT] Stopping the server
+[21:47:18] [Client thread/INFO]: Stopping!
+[21:47:25] [main/INFO]: Logging in with username & password

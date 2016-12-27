@@ -1,0 +1,25 @@
+[08:04:47] [main/INFO]: Logging in with username & password
+[08:04:54] [main/INFO]: Setting user: Smt_Redstoner
+[08:04:56] [Client thread/INFO]: LWJGL Version: 2.9.1
+[08:05:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians, FMLFileResourcePack:Example Mod
+[08:05:08] [Sound Library Loader/INFO]: Sound engine started
+[08:05:10] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[08:05:10] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[08:05:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod [08:05:22] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[08:05:22] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:53447] logged in with entity id 289 at (824.8016458615081, 72.0, -341.05087551729935)
+[08:05:22] [Server thread/INFO]: Smt_Redstoner joined the game
+[08:05:44] [Server thread/INFO]: [Smt_Redstoner: Set the time to 0]
+[08:05:51] [Server thread/WARN]: Skipping Entity with id Not[08:05:51] [Client thread/INFO]: [CHAT] Unable to summon object
+[08:05:58] [Client thread/INFO]: [CHAT] Unable to summon object
+[08:05:59] [Client thread/INFO]: [CHAT] Unable to summon object
+[08:05:59] [Client thread/INFO]: [CHAT] Unable to summon object
+[08:06:00] [Client thread/INFO]: [CHAT] Unable to summon object
+oner: Unable to summon object]
+[08:05:59] [Server thread/WARN]: Skipping Entity with id Notch
+[08:05:59] [Server thread/INFO]: [Smt_Redstoner: Unable to summon object]
+[08:06:00] [Server thread/WARN]: Skipping Entity with id Notch
+[08:06:00] [Server thread/INFO]: [Smt_Redstoner: Unable to summon object]
+[08:13:35] [Server Shutdown Thread/INFO]: Stopping server
+[08:13:35] [Server Shutdown Thread/INFO]: Saving players
+[21:52:21] [main/INFO]: Logging in with username & password
+[21:52:27] [main/INFO]: Setting user: Smt_Redstoner

@@ -16,13 +16,13 @@ public class MFSBlocks {
 
 	public static void registerBlocks() {
 		GameRegistry.registerBlock(core1 = new Core1(), "Core1");
-		GameRegistry.registerBlock(core2 = new Core1(), "Core2");
-		GameRegistry.registerBlock(core3 = new Core1(), "Core3");
-		GameRegistry.registerBlock(core4 = new Core1(), "Core4");
-		GameRegistry.registerBlock(core5 = new Core1(), "Core5");
-		GameRegistry.registerBlock(core6 = new Core1(), "Core6");
-		GameRegistry.registerBlock(core7 = new Core1(), "Core7");
-		GameRegistry.registerBlock(core8 = new Core1(), "Core8");
-		GameRegistry.registerBlock(core9 = new Core1(), "Core9");
+		GameRegistry.registerBlock(core2 = new Core2(), "Core2");
+		GameRegistry.registerBlock(core3 = new Core3(), "Core3");
+		GameRegistry.registerBlock(core4 = new Core4(), "Core4");
+		GameRegistry.registerBlock(core5 = new Core5(), "Core5");
+		GameRegistry.registerBlock(core6 = new Core6(), "Core6");
+		GameRegistry.registerBlock(core7 = new Core7(), "Core7");
+		GameRegistry.registerBlock(core8 = new Core8(), "Core8");
+		GameRegistry.registerBlock(core9 = new Core9(), "Core9");
     }
 }
