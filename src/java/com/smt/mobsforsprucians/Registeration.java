@@ -6,10 +6,6 @@ import com.smt.mobsforsprucians.blocks.MFSBlocks;
 import com.smt.mobsforsprucians.commands.SetWorldCommand;
 import com.smt.mobsforsprucians.config.ManagerConfig;
 import com.smt.mobsforsprucians.items.Items;
-import com.smt.mobsforsprucians.mobs.EntityMain;
-
-//import com.smt.mobsforsprucians.mobs.BossRegister;
-//import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import net.minecraft.command.ICommandManager;
@@ -47,7 +43,5 @@ public class Registeration {
 		
 		//Registering Items
 		Items.registerItems();
-		
-		EntityMain.mainRegistry();
 	}
 }

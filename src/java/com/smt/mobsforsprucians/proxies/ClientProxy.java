@@ -1,6 +1,10 @@
 package com.smt.mobsforsprucians.proxies;
 
 import org.apache.logging.log4j.Logger;
+
+import com.smt.mobsforsprucians.mobs.EntityMain;
+import com.smt.mobsforsprucians.mobs.RenderWorldBoss1;
+
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -11,6 +15,7 @@ public class ClientProxy extends CommonProxy{
 	private static final Logger LOGGER = FMLLog.getLogger();
 	
 	public void preInit(FMLPreInitializationEvent e) {
+		RenderWorldBoss1.renderEntity();
 		super.preInit(e);
 	}
 	

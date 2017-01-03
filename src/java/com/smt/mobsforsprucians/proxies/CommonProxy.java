@@ -4,6 +4,7 @@ import java.io.File;
 
 import com.smt.mobsforsprucians.Registeration;
 import com.smt.mobsforsprucians.config.ManagerConfig;
+import com.smt.mobsforsprucians.mobs.EntityMain;
 //import com.smt.mobsforsprucians.mobs.RenderWorldBoss1;
 import com.smt.mobsforsprucians.mobs.SpawnMobs;
 
@@ -31,6 +32,7 @@ public class CommonProxy {
 		registry.preInit(e);
 		ManagerConfig.init(new File("config/WorldBoss.cfg"));
 		SpawnMobs.preinIt();
+		EntityMain.registerEntity();
 	}
 	
 	public void init(FMLInitializationEvent e) {
