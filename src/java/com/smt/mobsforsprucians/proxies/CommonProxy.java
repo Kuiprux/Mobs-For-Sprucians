@@ -4,9 +4,8 @@ import java.io.File;
 
 import com.smt.mobsforsprucians.Registeration;
 import com.smt.mobsforsprucians.config.ManagerConfig;
-import com.smt.mobsforsprucians.mobs.EntityMain;
-//import com.smt.mobsforsprucians.mobs.RenderWorldBoss1;
-import com.smt.mobsforsprucians.mobs.SpawnMobs;
+import com.smt.mobsforsprucians.entities.EntityMain;
+import com.smt.mobsforsprucians.entities.SpawnMobs;
 
 //import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod.EventHandler;

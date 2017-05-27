@@ -1,0 +1,19 @@
+[22:31:06] [main/INFO]: Logging in with username & password
+[22:31:12] [main/INFO]: Setting user: Smt_Redstoner
+[22:31:1[22:31:16] [main/INFO]: Setting user: Smt_Redst[22:31:33] [Client thread/INFO]: Reloading ResourceManager: D[22:31:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFil[22:31:40] [Server thread/INFO]: Loading properties
+[22:31:40] [Server thread/INFO]: Default game type: SURVIVAL
+[22:31:40] [Server thread/INFO]: Generating keypair
+[22[22:31:44] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[22:31:44] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[22:31:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mobs For Sprucians
+[22:31:[22:31:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@2843c7d6[id=<null>,name=Smt_Redstoner,properties={},legacy=false] (/127.0.0.1:52859) lost connection: Disconnected
+ng to localhost, 25565
+[22:32:02] [Client thread/INFO]: Stopping!
+[22:32:10] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[22:32:17] [Server thread/INFO]: Loading properties
+[22:32:17] [Server thread/INFO]: Default game type: SURVIVAL
+[22:32:17] [Server thread/INFO]: Generating keypair
+[22:32:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:32:17] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[22:32:17] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[22:32:17] [Server thread/WARN]: Perhaps a server is already running on that port?

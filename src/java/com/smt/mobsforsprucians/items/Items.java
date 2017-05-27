@@ -7,6 +7,17 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
 public class Items {
+	
+	public static Item bossItem1;
+	public static Item bossItem2;
+	public static Item bossItem3;
+	public static Item bossItem4;
+	public static Item bossItem5;
+	public static Item bossItem6;
+	public static Item bossItem7;
+	public static Item bossItem8;
+	public static Item bossItem9;
+	
 	public static Item worldItem1;
 	public static Item worldItem2;
 	public static Item worldItem3;
@@ -18,6 +29,42 @@ public class Items {
 	public static Item worldItem9;
 	
 	public static void registerItems() {
+	    bossItem1 = new Item().setUnlocalizedName("bossItem1").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem1");
+	    GameRegistry.registerItem(bossItem1, "bossItem1");
+	    
+	    bossItem2 = new Item().setUnlocalizedName("bossItem2").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem2");
+	    GameRegistry.registerItem(bossItem2, "bossItem2");
+	    
+	    bossItem3 = new Item().setUnlocalizedName("bossItem3").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem3");
+	    GameRegistry.registerItem(bossItem3, "bossItem3");
+	    
+	    bossItem4 = new Item().setUnlocalizedName("bossItem4").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem4");
+	    GameRegistry.registerItem(bossItem4, "bossItem4");
+	    
+	    bossItem5 = new Item().setUnlocalizedName("bossItem5").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem5");
+	    GameRegistry.registerItem(bossItem5, "bossItem5");
+	    
+	    bossItem6 = new Item().setUnlocalizedName("bossItem6").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem6");
+	    GameRegistry.registerItem(bossItem6, "bossItem6");
+	    
+	    bossItem7 = new Item().setUnlocalizedName("bossItem7").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem7");
+	    GameRegistry.registerItem(bossItem7, "bossItem7");
+	    
+	    bossItem8 = new Item().setUnlocalizedName("bossItem8").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem8");
+	    GameRegistry.registerItem(bossItem8, "bossItem8");
+	    
+	    bossItem9 = new Item().setUnlocalizedName("bossItem9").setCreativeTab(Registeration.tab)
+	    		.setTextureName(MobsForSprucians.MODID + ":bossItem9");
+	    GameRegistry.registerItem(bossItem9, "bossItem9");
+	    
 	    worldItem1 = new Item().setUnlocalizedName("worldItem1").setCreativeTab(Registeration.tab)
 	    		.setTextureName(MobsForSprucians.MODID + ":worldItem1");
 	    GameRegistry.registerItem(worldItem1, "worldItem1");

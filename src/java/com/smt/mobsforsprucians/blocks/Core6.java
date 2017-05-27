@@ -1,7 +1,7 @@
 package com.smt.mobsforsprucians.blocks;
 
 import com.smt.mobsforsprucians.Registeration;
-import com.smt.mobsforsprucians.mobs.SpawnMobs;
+import com.smt.mobsforsprucians.entities.SpawnMobs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

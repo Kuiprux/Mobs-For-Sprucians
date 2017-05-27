@@ -43,3 +43,5 @@ rceManager.class:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
 	at GradleStart.main(Unknown Source) [start/:?]
 [18:22:51] [Client thread/INFO]: Stopping!
+[18:29:25] [main/INFO]: Logging in with username & password
+[18:29:32] [main/INFO]: Setting user: Smt_Redstoner

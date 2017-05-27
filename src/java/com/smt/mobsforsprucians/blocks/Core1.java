@@ -1,7 +1,7 @@
 package com.smt.mobsforsprucians.blocks;
 
 import com.smt.mobsforsprucians.Registeration;
-import com.smt.mobsforsprucians.mobs.SpawnMobs;
+import com.smt.mobsforsprucians.entities.SpawnMobs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -25,6 +25,7 @@ public class Core1 extends Block {
 	@Override
     public boolean onBlockActivated(World world, int xPos, int yPos, int zPos, EntityPlayer player, int n1, float n2, float n3, float n4)
     {
+		System.out.println("test");
 		SpawnMobs.spawnMob(world, xPos, yPos, zPos, player, name);
         return true;
     }

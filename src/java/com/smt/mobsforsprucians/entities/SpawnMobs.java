@@ -1,4 +1,4 @@
-package com.smt.mobsforsprucians.mobs;
+package com.smt.mobsforsprucians.entities;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
@@ -88,8 +88,8 @@ public class SpawnMobs{
 		System.out.println(num + " & " + player.dimension);
 		if(num == player.dimension) {
 			if(MultiblockChecker.checkMultiblockStructure(world, x, y, z, bossSpawningBlocks[getId(blockName)])) {
-				spawnBoss(getId(blockName));
 				removeBlocks(world, x, y, z);
+				spawnBoss(world, getId(blockName), x, y, z);
 				textToPlayer =  new ChatComponentText("[MFS] Congratulations!");
 				player.addChatMessage(textToPlayer);
 			}
@@ -116,22 +116,40 @@ public class SpawnMobs{
 			return 7;
 		case "Core9":
 			return 8;
-		default:
-			return 13579;
+		}
+		return -1;
+	}
+	
+	private static void spawnBoss(World world, int num, int x, int y, int z) {
+		switch(num) {
+		case 0:
+			EntityWorldBoss1 notch = new EntityWorldBoss1(world);
+			notch.setPosition(x, y, z);
+			world.spawnEntityInWorld(notch);
+			break;
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:
+			break;
+		case 8:
+			break;
 		}
 	}
 	
-	private static void spawnBoss(int num) {
-		
-	}
-	
 	private static void removeBlocks(World world, int x, int y, int z) {
-		for(int forX = -4; forX <= 4; forX++) {
-			System.out.println("x 루프, " + forX);
-			for(int forY = -2; forY <= 2; forY++) {
-				System.out.println("y 루프, " + forY);
-				for(int forZ = -4; forZ <= 4; forZ++) {
-					System.out.println("z 루프, " + forZ);
+		for(int forX = x-4; forX <= x+4; forX++) {
+			for(int forY = y-2; forY <= y+2; forY++) {
+				for(int forZ = z-4; forZ <= z+4; forZ++) {
 					world.setBlockToAir(forX, forY, forZ);
 				}
 			}

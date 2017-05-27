@@ -2,8 +2,8 @@ package com.smt.mobsforsprucians.proxies;
 
 import org.apache.logging.log4j.Logger;
 
-import com.smt.mobsforsprucians.mobs.EntityMain;
-import com.smt.mobsforsprucians.mobs.RenderWorldBoss1;
+import com.smt.mobsforsprucians.entities.EntityMain;
+import com.smt.mobsforsprucians.entities.RenderWorldBoss1;
 
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
