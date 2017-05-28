@@ -5,13 +5,17 @@ import java.io.File;
 import com.smt.mobsforsprucians.blocks.MFSBlocks;
 import com.smt.mobsforsprucians.commands.SetWorldCommand;
 import com.smt.mobsforsprucians.config.ManagerConfig;
-import com.smt.mobsforsprucians.items.Items;
+import com.smt.mobsforsprucians.entities.DropHandler;
+import com.smt.mobsforsprucians.items.MFSItems;
+
+import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import net.minecraft.command.ICommandManager;
 import net.minecraft.command.ServerCommandManager;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.server.MinecraftServer;
+import net.minecraftforge.common.MinecraftForge;
 
 public class Registeration {
 	
@@ -42,6 +46,10 @@ public class Registeration {
 		MFSBlocks.registerBlocks();
 		
 		//Registering Items
-		Items.registerItems();
+		MFSItems.registerItems();
+	}
+	
+	public final void Init(FMLInitializationEvent e) {
+		MinecraftForge.EVENT_BUS.register(new DropHandler());
 	}
 }

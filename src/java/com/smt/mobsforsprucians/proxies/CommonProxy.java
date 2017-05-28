@@ -35,7 +35,7 @@ public class CommonProxy {
 	}
 	
 	public void init(FMLInitializationEvent e) {
-		
+		registry.Init(e);
 	}
 	
 	public void postInit(FMLPostInitializationEvent e) {

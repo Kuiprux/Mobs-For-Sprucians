@@ -6,7 +6,7 @@ import com.smt.mobsforsprucians.Registeration;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
-public class Items {
+public class MFSItems {
 	
 	public static Item bossItem1;
 	public static Item bossItem2;

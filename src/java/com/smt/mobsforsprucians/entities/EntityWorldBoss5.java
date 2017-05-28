@@ -1,5 +1,8 @@
 package com.smt.mobsforsprucians.entities;
 
+import com.smt.mobsforsprucians.items.MFSItems;
+
+import net.minecraft.item.Item;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 
@@ -19,6 +22,10 @@ public class EntityWorldBoss5 extends EntityWorldBossBase{
 	protected boolean isAIEnabled()
 	{
 	   return true;
+	}
+	
+	protected Item getDropItem() {
+		return MFSItems.bossItem5;
 	}
 
 }

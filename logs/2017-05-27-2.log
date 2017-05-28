@@ -1,0 +1,22 @@
+[20:59:31] [main/INFO]: Logging in with username & password
+[20:59:41] [main/INFO]: Setting user: Smt_Redstoner
+[20:59:43] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:59:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFil[20:59:56] [Server thread/INFO]: Loading properties
+[20:59:57] [Server thread/INFO]: Default game type: SURVIVAL
+[20:59:57] [Server thread/INFO]: Generating keypair
+[20[20:59:59] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:59:59] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:59:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minec[21:00:08] [User Authenticator #1/INFO]: UUID of player Smt_Redstoner is 47683e79-cb98-45ad-8294-197a5e2bc9fd
+[21:00:08] [Server thread/INFO]: Smt_Redstoner[/127.0.0.1:55966] logged in with entity id 284 at (626.5518584934096, 73.86512829970259, -126.66793683124706)
+[21:00:08] [Server thread/INFO]: Smt_Redstoner joined t[21:14:55] [Client thread/INFO]: [CHAT] Stopping the server
+the system time change, or is the server overloaded? Running 2321ms behind, skipping 46 tick(s)
+[21:14:54] [Server thread/INFO]: [Smt_Redstoner: Stopping the server]
+[21:14:55] [Server thread/INFO]: Stopping server
+[21:14:55] [Server thread/INFO]: Saving players
+[21:14:55] [Server thread/INFO]: Saving worlds
+[21:14:55] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:14:55] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:14:55] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[21:16:18] [main/INFO]: Logging in with username & password
+[21:16:26] [main/INFO]: Setting user: Smt_Redstoner
+[21:16:30] [Client thread/INFO]: LWJGL Version: 2.9.1
